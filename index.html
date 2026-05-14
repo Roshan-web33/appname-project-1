@@ -3,92 +3,302 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App name Landing page</title>
+    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
 </head>
-<body>
-    <header>
-          
-        <nav class=" bg-gray-200 sticky static    flex justify-between p-5">
-            
-            <p class="inline-block ml-[10%] sm:ml-0 text-[125%] font-bold font-[ui]
-          ">🚀 AppName</p>
-          
-    
-            <button onclick="toggleMenu()" class=" bg-gradient-to-b from-blue-500 to-purple-500 p-2 rounded-lg hidden sm:block"><i class="ri-menu-3-line"></i></button>
-           
-             
-             
-           
-              <div id="menu" class="sm:fixed hidden md:block md:absolute  md:right-5  ">
-                  <ul class="sm:flex sm:flex-col  md:block md:relative   md:bg-gray-500  md:p-0 md:h-0 sm:bg-gray-500 sm:fixed sm:top-0 sm:left-0 sm:h-screen sm:justify-center sm:gap-5 sm:p-5  block ">
-                     <div  onclick="toggleMenu()"  class="fixed md:hidden top-10  z-1 text-white hidden sm:block "><i class="ri-close-large-line"></i></div>
-                <li class="inline-block text-[90%]"><a class="inline-block ml-[2.5rem]   " href="#"></a>Features</li>
-                <li class="inline-block text-[90%]"><a class="inline-block ml-[2.5rem]   " href="#"></a>Pricing</li>
-                <li class="inline-block text-[90%]"><a class="inline-block ml-[2.5rem]   " href="#"></a>About</li>
-                <li class="inline-block text-[90%]"><a class="inline-block ml-[2.5rem]   " href="#"></a>Contact</li>
-                <button class="ml-[30px] bg-blue-500 p-2 text-white rounded-[.5rem]   sm:w-30 ">Get Started</button></div>
+<body class="bg-black text-white">
+    <header class="flex justify-center z-50 sticky w-full">
+        <nav class="flex p-5 w-[80%] bg-white/50 backdrop border border-gray-400 mt-5 rounded-2xl justify-between   ">
+            <div class="flex gap-5">
+                <div class="bg-gradient-to-r from-indigo-500 to-blue-500 w-10 flex justify-center items-center rounded-xl h-10">⚡️</div>
+                <h1 class="pt-2 text-xl font-bold">Flowapp</h1>
+
+            </div>
+            <ul class="flex gap-10">
+                <li class="text-white hover:bg-gray-400  p-2 rounded-xl "><a href="#">Feature</a></li>
+                <li class="text-white hover:bg-gray-400  p-2 rounded-xl "><a href="#">Pricing</a></li>
+                <li class="text-white hover:bg-gray-400  p-2 rounded-xl "><a href="#">Reviews</a></li>
+                <li class="text-white shadow-xl hover:scale-105 bg-black shadow shadow-blue-500  p-2 rounded-xl "><a href="#">Get Started</a></li>
             </ul>
 
-              </div>
-               
-              
-            
-        
-            
-           
-    
+
         </nav>
     </header>
 
+    <section>
+        <div class="flex  h-screen">
+            <div class="w-[50%] relative">
+                <div class=" absolute left-60 top-50 flex flex-col gap-10">
+                    <div class=" inline-block  bg-white/50 animate-bounce w-[60%] backdrop border p-2 rounded-2xl">New with Ai password Safe.  <span class="bg-gradient-to-r from-purple-500 to-blue-500 p-1 rounded-2xl" >NEW</span></div>
+                <div class="flex flex-col gap-10">
+                    <h1 class="text-7xl font-bold" >Build products <br> <span class=" bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500 ">users love</span></h1>
+                    <p>The all-in-one platform for teams to collabarate <br>
+                    design and ship amazing products 100x faster.
+                    </p>
+                    <div class="flex gap-5">
+                        <button class="p-5 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl">Start Free Trial </button>
+                    <button class="p-5 border-gray-400  bg-white/50 backdrop border rounded-xl">Watch Demo </button>
 
-    <section class=" bg-linear-to-b from-blue-500 to-purple-500 sm:flex-col lg:flex-row  flex h-[91.9vh]  ">
-        <div class=" w-[50%]   sm:p-0 sm:w-full lg:p-20  pl-40 pt-50">
-            <p class="text-[500%] lg:leading-[5rem] lg:text-left  lg:text-[500%]  sm:text-[200%] sm:leading-[2rem] sm:text-center sm:mt-10   leading-[5rem] mb-[2%] font-bold  text-white">Build Amazing<br>Products Faster</p>
-            <p class=" mb-[2%] tracking-[2%] lg:text-left  sm:text-center sm:-tracking-0 sm:text-[90%]   text-white">The all-in-one platform for teams to collaborate, build, and Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Possimus amet quis pariatur cumque enim ea sapiente voluptatum nemo accusantium ,<br> hic perferendis molestiae itaque dolorum iste tempora quisquam, qui consectetur <br> cupiditate! <br>ship products that users</p>
-            <div class="mt-[4%] lg:text-left sm:text-center">
-                <button class=" bg-gray-100  p-3 w-[20%]  sm:w-[40%] text-blue-500  rounded-[.5rem]">Start Free Trial</button>
-                <button class="ml-[30px] border-[2px]   p-3 w-[20%] sm:w-[40%]  text-white rounded-[.5rem]  ">Get Started</button>
+                    </div>
+                    
+                    <div class="flex ">
+                        <div class="w-10 relative border cursor-pointer left-4  transition delay-50 duration-100 ease-in-out   rounded-[50%] h-10 bg-red-500 overflow-hidden hover:scale-150 hover:z-10"><img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile"></div>
+                        <div class="w-10 relative border cursor-pointer left-2 transition overflow-hidden delay-50 duration-100 ease-in-out rounded-[50%] h-10 bg-green-500 hover:scale-150 hover:z-10"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>   
+                        <div class="w-10 relative border cursor-pointer   transition overflow-hidden delay-50 duration-100 ease-in-out rounded-[50%] z-10 h-10 bg-yellow-500 hover:scale-150 hover:z-10"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                        <div class="w-10 relative border cursor-pointer  -left-1 transition overflow-hidden delay-50 duration-100 ease-in-out rounded-[50%] h-10 bg-blue-500 hover:scale-150 hover:z-10"><img src="https://plus.unsplash.com/premium_photo-1693258698597-1b2b1bf943cc?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                        <div class="w-10 relative border cursor-pointer -left-2 transition overflow-hidden delay-50 duration-100 ease-in-out rounded-[50%] -z-10 h-10 bg-white hover:scale-150 hover:z-10"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                        <div class="">
+                        <P class="text-[90%] font-bold">⭐️⭐️⭐️⭐️⭐️ <span>4.9/5</span></P>
+                        <p class="text-[80%] text-gray-500">Hey I am the best web developer in the world</p>
+                    </div>
+
+
+                        
+                    </div>
+
+
+                    
+
+                    
+                </div>
+                
+
+            </div>
+
+                </div>
+                
+            <div class="flex relative w-[50%]">
+
+                <div class="w-[80%] absolute overflow-hidden top-50 rounded-2xl h-[50%]">
+                    <img class="absolute  " src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    
+                
+            
+
+                </div>
+
+                <div class="absolute flex cursor-pointer  bg-white/15 top-50 right-30   animate-bounce backdrop-blur-lg rounded-[.5rem] p-2 justify-evenly inline-block h-20 w-30 "><span class="bg-green-500 p-2 h-10 rounded-[50%]">📉</span><p class="text-center"><span>+120</span> <br>Growth</p></div>
+                <div class="absolute flex cursor-pointer  bg-white/15   bottom-55   animate-bounce backdrop-blur-lg rounded-[.5rem] p-2 justify-evenly inline-block h-20 w-30 "><span class="bg-blue-500  p-2 h-10 rounded-[50%]">☑️</span><p class="text-center"><span>Task</span> <br>Completed</p></div>
+                <div class="absolute flex cursor-pointer  bg-white/15   bottom-100 right-30   animate-bounce backdrop-blur-lg rounded-[.5rem] p-2 justify-evenly inline-block h-20 w-30 "><span class="bg-blue-500  p-2 h-10 rounded-[50%]">☑️</span><p class="text-center"><span>Task</span> <br>Completed</p></div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+     <section>
+        <div class="h-screen relative">
+            <p class="text-blue-500 text-center">FEATURES</p>
+        <p class="text-[60px] text-center font-[ui]">Everything you need</p>
+        <p class="text-gray-500 text-center">Powerful features designed to supercharge your workflow</p>
+        <div class="bg-gradient-to-r absolute  top-50 left-40 from-blue-900 to-purple-700 w-[50%] rounded-[.5rem] flex p-3 h-[300px]">
+                <div class="w-[50%]">
+                     <img class=" w-[10%]  rounded-[.5rem]  bg-gradient-to-r from-cyan-500 to-blue-500   inline-block" src="assetes/logo-alipay.svg" alt="">
+                <p class="text-[150%] mt-3 mb-5" >Al-Powered Automation</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nam quia. Nostrum qui quam aliquam necessitatibus numquam nulla sint distinctio aspernatur, amet maiores et dolorem deleniti dolor ut soluta rem?</p>
+                <div class="flex mt-5">
+                    <ul class="flex">
+                        <li class="ml-10 bg-white/15 backdrop-blur-lg  rounded-[.5rem] p-2"><a href="#">Smart Suggestion</a></li>
+                        <li class="ml-10 bg-white/15 backdrop-blur-lg  rounded-[.5rem] p-2"><a href="#">Auto-comleted</a></li>
+                        <li class="ml-10 bg-white/15 backdrop-blur-lg  rounded-[.5rem] p-2"><a href="#">workflow</a></li>
+                    </ul>
+                </div>                
+                
+
+                </div>
+               
+                <div class="w-[50%] ">
+                <img class="w-[90%] ml-10 rounded-[.5rem] opacity-70 hover:opacity-100" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+            </div>            
+        </div>
+
+
+         <div class=" absolute top-50 right-75 w-[25%] transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl p-3 rounded-[1rem] flex flex-col bg-gray-900">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] text-center text-[200%] inline-block ">⚡️</div>
+             <p class="block mt-2 text-[130% ]">Ligth fast</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, </p>
+
+    
+            </div>
+
+
+            <div class=" absolute top-90 right-75 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl  ml-[2%] w-[25%] p-3 rounded-[1rem] flex flex-col bg-gray-900">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] text-center text-[200%] inline-block ">⚡️</div>
+             <p class="block mt-2 text-[130% ]">Bank-Level Security</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, </p>
+
+    
+            </div>
+
+            <div class=" absolute bottom-79 right-75 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl  ml-[2%] w-[25%] p-3 rounded-[1rem] flex flex-col  bg-gray-900">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] text-center text-[200%] inline-block ">⚡️</div>
+             <p class="block mt-2 text-[130% ]">Team Collaboration</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, </p>
+
+    
+            </div>
+
+
+            <div class=" absolute bottom-79 left-30 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl  ml-[2%] w-[25%] p-3 rounded-[1rem] flex flex-col  bg-gray-900">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] text-center text-[200%] inline-block ">⚡️</div>
+             <p class="block mt-2 text-[130% ]">Real-time Sync</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, </p>
+
+    
+            </div>
+
+            <div class=" absolute bottom-79 left-151 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl  ml-[2%] w-[25%] p-3 rounded-[1rem] flex flex-col  bg-gray-900">
+             <div class=" animate-pulse w-[50px] h-[50px] bg-gray-400 rounded-[.5rem] text-center text-[200%] inline-block ">⚡️</div>
+             <p class="block mt-2 text-[130% ]">Advanced Analytics</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, </p>
+
+    
+            </div>
+
+
+
+
+
+       
+        
+        </section>
+
+
+
+
+
+
+
+
+
+<section class="">
+    <p class="text-center text-purple-500">TESTIMONIALS</p>
+    <P class="text-center  font-[ui] font-bold text-[400%]">Love by thousands</P>
+    <div class="flex justify-center gap-10 mt-10">
+      <div class="w-[30%] flex gap-5 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl rounded-[.5rem] p-3 flex-col h-[12.4rem] bg-gray-600">
+         <p>⭐️⭐️⭐️⭐️⭐️</p>
+         <p> earum quos possimus itaque beatae temporibus vitae ipsa, et praesentium corporis reprehenderit facere, quae obcaecati iste ab neque cum.</p>
+         
+         <div class="flex gap-5">
+            <div class="w-10   cursor-pointer  transition delay-50 duration-100 ease-in-out   rounded-[50%] h-10  overflow-hidden hover:scale-150 "><img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile"></div>
+            <p class="">Pooja sharam <br> <span class="text-[90%] text-gray-300">CEO of xyz comapany</span></p>
+         </div>
+      </div>
+     
+      <div class="w-[30%] flex gap-5 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl rounded-[.5rem] p-3 flex-col h-[12.4rem] bg-gray-600">
+         <p>⭐️⭐️⭐️⭐️⭐️</p>
+         <p> earum quos possimus itaque beatae temporibus vitae ipsa, et praesentium corporis reprehenderit facere, quae obcaecati iste ab neque cum.</p>
+         
+         <div class="flex gap-5">
+            <div class="w-10   cursor-pointer  transition delay-50 duration-100 ease-in-out   rounded-[50%] h-10  overflow-hidden hover:scale-150 "><img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile"></div>
+            <p class="">Pooja sharam <br> <span class="text-[90%] text-gray-300">CEO of xyz comapany</span></p>
+         </div>
+      </div>
+
+      <div class="w-[30%] flex gap-5 transition delay-300 cursor-pointer duration-600 hover:-translate-y-10 shadow-blue-500  hover:shadow-xl rounded-[.5rem] p-3 flex-col h-[12.4rem] bg-gray-600">
+         <p>⭐️⭐️⭐️⭐️⭐️</p>
+         <p> earum quos possimus itaque beatae temporibus vitae ipsa, et praesentium corporis reprehenderit facere, quae obcaecati iste ab neque cum.</p>
+         
+         <div class="flex gap-5">
+            <div class="w-10   cursor-pointer  transition delay-50 duration-100 ease-in-out   rounded-[50%] h-10  overflow-hidden hover:scale-150 "><img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile"></div>
+            <p class="">Pooja sharam <br> <span class="text-[90%] text-gray-300">CEO of xyz comapany</span></p>
+         </div>
+      </div>
+      
+
+    </div>
+</section>
+
+
+
+
+<section class="mt-30">
+    <div class="h-[50vh] justify-center flex flex-col bg-gradient-to-r from-blue-500 to-pink-500 ">
+        <p class="text-center text-[400%] font-bold leading-[4rem]">Ready to Transform</p>
+        <p class="text-center text-[400%] font-bold leading-[4rem]">your workflow?</p>
+        <p class="text-center text-gray-300 mt-5">Join 2,000+ teams already using FlowApp to bulid better products faster.  Lorem ipsum dolor sit  </p>
+        <div class="text-center mt-10">
+            <button class="rounded-[.5rem] font-bold transition delay-150 text-black ease-in-out hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500  cursor-pointer  bg-white  p-3 w-[20%]">Start Free Trial</button>
+            <button class="rounded-[.5rem] font-bold hover:bg-white/30 transition duration-300 ml-5 p-3 w-[20%] bg-white/15 backdrop-blur-lg  ">Demo</button>
+
+        </div>
+        <p class="text-center mt-10 text-gray-300">No Creadit card required . 14 day free Trial</p>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<section>
+   <div  class="h-[50vh] p-10 bg-black">
+    <div class="flex gap-50">
+          <div class="flex w-[30%] flex-col gap-5">
+        <div class="flex gap-2 "><img class=" w-[8%]  rounded-[.5rem] bg-gradient-to-r from-cyan-500 to-blue-500   inline-block" src="assetes/logo-alipay.svg" alt="">
+            <p class="text-[120%]">FlowApp</p>
+      </div>
+      <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore delectus saepe dignissimos ducimus illo quibusdam ipsam eos provident. Aut, reiciendis. Eaque delectus enim blanditiis deserunt maiores laudantium, qui nesciunt0.</p>
+      <div class="flex gap-5">
+        <img class="bg-gray-100 w-[8%] transition overflow-hidden delay-150 duration-300 ease-in-out rounded-[.5rem] hover:bg-white hover:scale-120 " src="assetes/logo-github.svg" alt="">
+        <img class="bg-gray-100 w-[8%] transition overflow-hidden delay-150 duration-300 ease-in-out rounded-[.5rem] hover:bg-white hover:scale-120 " src="assetes/logo-google.svg" alt="">
+        <img class="bg-gray-100 w-[8%] transition overflow-hidden delay-150 duration-300 ease-in-out rounded-[.5rem] hover:bg-white hover:scale-120 " src="assetes/logo-instagram.svg" alt="">
+
+      </div>
+   </div>
+
+
+
+
+        <div class="grid w-[40%] mt-10 grid-cols-3">
+        <ul class="flex flex-col gap-5">
+            <li><a href="#">Products</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">freatures</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">Pakging</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">Fast</a></li>
+        </ul>
+
+        <ul class="flex flex-col gap-5">
+            <li><a href="#">comapany</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">About</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">Blog</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">carrers</a></li>
+        </ul>
+
+        <ul class="flex flex-col gap-5">
+            <li><a href="#">Legal</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">Privacy</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">trems</a></li>
+            <li class="text-gray-500 text-[90%]"><a href="#">Seacurty</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex mt-30  justify-center">
+            <div class="flex flex-cols w-[80%] p-3 z-10 bg-white/15 backdrop-blur-lg rounded-[.5rem]   justify-between">
+                <div class="inline-block"><img class=" w-[9%]  rounded-[.5rem] bg-gradient-to-r from-cyan-500 to-blue-500   inline-block" src="assetes/logo-alipay.svg" alt="">
+                     <p class="inline-block text-[130%] font-bold ml-2 mt-1">FlowApp</p>
+                </div>
+                <div>
+                   <p class="text-[90%]  text-gray-500">@2026 FlowApp. Creadit </p>
+                </div>
+               
             </div>
         </div>
 
-        <div class=" w-[50%]   sm:w-[100%]   sm:p-0  lg:p-5 pl-10 pt-40">
-            <img class="w-[90%]  rounded-[1rem] lg:w-[100%] lg:ml-0 lg:mt-40  sm:mt-10 sm:w-[70%] sm:ml-25 sm:mt-10" src="Berlin.jpg" alt="">
-        </div>    
-    </section>
+  
 
-    <section class="  bg-gray-100 ">
-        <p class="pt-[1rem] text-center text-[2rem]  font-bold">Poweful Features</p>
-        <div class="p-[5%]  pl-[10%] grid md:grid-cols-3  sm:grid-cols-1 grid-cols-3 gap-10 ">
-                    <div class=" rounded-[1rem] shadow-2xl bg-white p-[20px] hover:bg-black hover:text-white"><span>⚡️</span>
-                    <p>Lightning Fast</p>
-                    <p>Optimized for speed and performance.</p>
-                </div>
 
-                <div class=" rounded-[1rem] shadow-2xl bg-white p-[20px] hover:bg-black hover:text-white"><span>🔒</span>
-                    <p>Secure</p>
-                    <p>Enterprise-grade security bulit-in.</p>
-                </div>
 
-                <div class=" rounded-[1rem] shadow-2xl bg-white p-[20px] hover:bg-black hover:text-white"><span>📉</span>
-                    <p>Analytics</p>
-                    <p>Real-time insights and reports</p>
-                </div>
+</section>
 
-        </div>
-    </section>
-    <section class="bg-black flex   sm:flex-col md:flex-row p-10   justify-between">
-        <p class="inline-block ml-[10%]  sm:text-center sm:ml-0 text-white text-[100%] font-bold font-[ui]">🚀 AppName</p>
-        <p class="text-gray-500  sm:text-center ">2026 AppNAme. All rights reserved.</p>
-        
 
-    </section>
 
-    <script src="script.js"></script>
-
+    
 </body>
 </html>
